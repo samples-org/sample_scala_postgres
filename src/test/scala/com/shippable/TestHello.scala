@@ -8,7 +8,7 @@ class TestStuff extends JUnitSuite {
  val calc = new HelloWorld
 
  @ Test def readHelloWorld {
- 	val result: Boolean = calc.returnValue().containsSlice("lindsay@bluth.com")
+ 	val result: Boolean = calc.returnValue().containsSlice("lindsay@buth.com")
     assertEquals(true, result)
   }
 }
