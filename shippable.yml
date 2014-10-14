@@ -14,6 +14,7 @@ script:
   - sbt clean scoverage:test
 
 after_script:
+  - echo "test"
   - mkdir -p shippable/codecoverage
   - mv target/scala-2.10/coverage-report/cobertura.xml shippable/codecoverage/
 
